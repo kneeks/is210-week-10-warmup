@@ -12,4 +12,4 @@ CORRECTED['Dylan'] = {'Bob Dylan': ['vocals', 'guitar', 'harmonica']}
 
 del CORRECTED['Van Halen']['David Lee Roth']
 
-CORRECTED['Van Halen']['Sammy Haggar'] = ['vocals']
+CORRECTED['Van Halen']['Sammy Hagar'] = ['vocals']
