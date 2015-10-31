@@ -35,9 +35,21 @@ DATA = {
 
 def iter_dict_funky_sum(dictionary):
     """
+    This function takes dictionary and adds items to total
+
+    Args:
+        dictionary (int): the number of data
+
+    Returns:
+        int: of the total
+
+    Examples:
+
+        >>> iter_dict_funky_sum(task_07.DATA)
++        140166242
+        
     """
     total = 0
-    for key, value in dictionary:
+    for key, value in dictionary.iteritems():
         total += value - key
     return total
-        
